@@ -1,4 +1,4 @@
-# DIS-finalproject
+# Latency_test
 
 Note: This repository is part of the final submission of Rutgers course 198:553 Design of Internet Services.
 
@@ -40,10 +40,10 @@ The repo contains the following files/directories:
 sudo apt-get update -y <br>
 sudo apt-get install -y git python3 nginx python3-pip gunicorn3 <br>
 sudo pip3 install flask boto3 <br>
-git clone https://github.com/Shobhit29075/DIS-finalproject.git <br>
-sudo cp DIS-finalproject/flaskapp /etc/nginx/sites-enabled/ <br>
+git clone https://github.com/Nikhil010301/latency_test.git <br>
+sudo cp latency_test/flaskapp /etc/nginx/sites-enabled/ <br>
 sudo systemctl restart nginx <br>
-cd DIS-finalproject <br>
+cd latency_test <br>
 nohup gunicorn3 app:app & <br><br>
   
 Thank you.
